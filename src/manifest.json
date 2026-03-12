@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "REGIS-BROWSER-BOOKMARK",
-  "version": "0.2",
+  "version": "0.3",
   "description": "Capture web browsing bookmark history",
   "author": "acendrou",
   "background": {
@@ -23,7 +23,12 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "regis-browser-bookmark@ekvidi"
+      "id": "regis-browser-bookmark@ekvidi.fr",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
     }
   }
 }
